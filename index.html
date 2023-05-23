@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astrix</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="body-container">
+      <nav class="navbar navbar-expand-md bg-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <svg width="130" height="50" viewBox="0 0 130 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_383_927)">
+                <path
+                  d="M130 0H13.9941C6.26421 0 0 6.15415 0 13.7482V37H116.006C123.736 37 130 30.8459 130 23.2518V0Z"
+                  fill="#2C3E50"
+                />
+                <path
+                  d="M21.5899 25.4188H11.8272L10.1512 31.0283H6.06641L13.6242 5.96094H19.7801L27.338 31.0283H23.2468L21.5899 25.4188ZM20.6532 22.2447L16.8934 9.65468H16.5238L12.764 22.2447H20.6532Z"
+                  fill="white"
+                />
+                <path
+                  d="M34.2586 28.0477C35.7115 28.2167 37.1071 28.3044 38.439 28.3044C39.8218 28.3044 41.364 28.2293 43.0527 28.0602V20.5976L39.1782 20.3096C36.6738 20.1281 34.8002 19.8025 33.5449 19.3643C32.2895 18.926 31.4228 18.2249 30.9066 17.2795C30.4032 16.3342 30.1547 14.9631 30.1547 13.1726C30.1547 11.2443 30.4032 9.71047 30.9066 8.58357C31.4101 7.44415 32.2257 6.63027 33.3601 6.12316C34.4944 5.61606 36.011 5.35938 37.9101 5.35938C40.6503 5.35938 43.4096 5.61606 46.1498 6.12316L45.6208 9.29728C43.4478 8.8966 40.9498 8.70252 38.1586 8.70252C36.7757 8.70252 35.5841 8.76513 34.6091 8.8966V16.4343L39.1463 16.7223C41.3194 16.8538 43.0081 17.1731 44.2125 17.6677C45.4105 18.1623 46.2581 18.926 46.7552 19.9465C47.2586 20.967 47.5071 22.3944 47.5071 24.2225C47.5071 26.0881 47.2012 27.5656 46.6086 28.6299C46.0159 29.7068 45.0282 30.4705 43.6708 30.9338C42.3135 31.3971 40.44 31.635 38.0821 31.635C35.1953 31.635 32.4488 31.3095 29.8424 30.6771L30.4478 27.3841C31.5311 27.647 32.812 27.8661 34.2586 28.0477Z"
+                  fill="white"
+                />
+                <path
+                  d="M60.5711 31.0275H56.4799V9.30328H49.7441V5.97266H67.2941V9.30328H60.5584V31.0275H60.5711Z"
+                  fill="white"
+                />
+                <path
+                  d="M85.7169 31.0275L81.4727 22.1688H75.6673V31.0275H71.5762V5.97266H81.785C83.6075 5.97266 85.0286 6.24186 86.0419 6.77401C87.0551 7.30616 87.7943 8.1889 88.2468 9.40345C88.6928 10.6243 88.9222 12.2896 88.9222 14.4307C88.9222 16.4904 88.661 18.0994 88.1321 19.2639C87.6031 20.4283 86.7365 21.2359 85.5321 21.6867L90.1458 31.0275H85.7169ZM75.6673 19.0072H81.8232C82.8811 19.0072 83.6139 18.8882 84.0281 18.6441C84.436 18.3999 84.6335 17.9554 84.6335 17.3231V10.9874C84.6335 10.3425 84.436 9.89804 84.0281 9.6664C83.6203 9.42223 82.8811 9.30328 81.8232 9.30328H75.6673V19.0072Z"
+                  fill="white"
+                />
+                <path
+                  d="M100.355 17.918V28.0476C100.355 29.6941 98.9975 31.0401 97.3088 31.0401V23.9156H94.2627V20.923C94.2627 19.2765 95.62 17.9305 97.3088 17.9305H100.355V17.918Z"
+                  fill="#2880B9"
+                />
+                <path
+                  d="M94.2627 8.96521C94.2627 10.6117 95.62 11.9578 97.3088 11.9578C98.9848 11.9578 100.355 10.6243 100.355 8.96521C100.355 7.31868 98.9975 5.97266 97.3088 5.97266C95.6328 5.97266 94.2627 7.30616 94.2627 8.96521Z"
+                  fill="#2880B9"
+                />
+                <path
+                  d="M118.752 31.0283L113.635 23.6846L108.888 31.0283H104.561L111.468 20.5856L104.758 10.9443H109.136L114.043 18.0188L118.58 10.9443H122.92L116.165 21.0614L123.117 31.022H118.752V31.0283Z"
+                  fill="white"
+                />
+                <path
+                  d="M1.305 44.635V40.749L2.987 39.7775H6.3655L8.0475 40.749V42.2425H6.5975V41.0825H2.755V44.1565H6.3655L8.0475 45.128V49.101L6.3655 50.0725H2.842L1.16 49.101V47.6075H2.61V48.7675H6.5975V45.6065H2.987L1.305 44.635ZM16.6682 49.101L14.9862 50.0725H12.1877L10.5057 49.101V43.649L12.1877 42.6775H14.9862L16.6682 43.649V49.101ZM11.9122 43.939V48.811H15.2617V43.939H11.9122ZM18.4076 44.0115V42.75H19.7416V40.3865L21.4236 39.415H22.8881V40.6765H21.1481V42.75H22.8881V44.0115H21.1481V50H19.7416V44.0115H18.4076ZM24.0434 44.0115V42.75H25.3774V41.532L26.7839 40.72V42.75H28.5239V44.0115H26.7839V48.7385H28.5239V50H27.0594L25.3774 49.0285V44.0115H24.0434ZM36.458 50L34.892 44.461H34.863L33.3115 50H31.644L29.8315 42.75H31.1365L32.514 48.4195H32.543L34.138 42.75H35.6315L37.2265 48.4195H37.2555L38.633 42.75H39.938L38.1255 50H36.458ZM42.6471 47.0275V48.811H45.5616V47.0275H42.6471ZM42.9226 50.0725L41.2406 49.101V46.7375L42.9226 45.766H45.5616V44.0115H41.9656V42.75H45.2861L46.9681 43.7215V50.0725H46.5911L45.5616 49.478L44.5321 50.0725H42.9226ZM53.3359 44.0115H50.6969V50H49.2904V42.75H50.3489L50.6969 43.3445L51.7264 42.75H53.3359V44.0115ZM60.6536 48.7385V50H56.6081L54.9261 49.0285V43.649L56.6081 42.6775H58.9716L60.6536 43.649V46.868H56.3326V48.7385H60.6536ZM56.3326 43.939V45.6065H59.2471V43.939H56.3326ZM72.1877 46.665V49.0285L70.5057 50H66.7357V48.7385H70.7812V46.955H68.4177L66.7357 45.9835V43.7215L68.4177 42.75H72.0427V44.0115H68.1422V45.6935H70.5057L72.1877 46.665ZM80.6721 49.101L78.9901 50.0725H76.1916L74.5096 49.101V43.649L76.1916 42.6775H78.9901L80.6721 43.649V49.101ZM75.9161 43.939V48.811H79.2656V43.939H75.9161ZM84.6735 50L82.9915 49.0285V39.415H84.398V48.7385H86.138V50H84.6735ZM87.5936 49.101V42.75H89.0001V48.811H92.3496V42.75H93.7561V50.0725H92.6976L92.3496 49.478L91.3201 50.0725H89.2756L87.5936 49.101ZM95.4955 44.0115V42.75H96.8295V41.532L98.236 40.72V42.75H99.976V44.0115H98.236V48.7385H99.976V50H98.5115L96.8295 49.0285V44.0115H95.4955ZM103.415 42.75V50H102.009V42.75H103.415ZM101.936 40.9665V39.415H103.488V40.9665H101.936ZM111.895 49.101L110.213 50.0725H107.415L105.733 49.101V43.649L107.415 42.6775H110.213L111.895 43.649V49.101ZM107.139 43.939V48.811H110.489V43.939H107.139ZM120.377 43.649V50H118.971V43.939H115.621V50H114.215V42.6775H115.273L115.621 43.272L116.651 42.6775H118.695L120.377 43.649ZM128.149 46.665V49.0285L126.467 50H122.697V48.7385H126.742V46.955H124.379L122.697 45.9835V43.7215L124.379 42.75H128.004V44.0115H124.103V45.6935H126.467L128.149 46.665Z"
+                  fill="#2C3E50"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_383_927">
+                  <rect width="130" height="50" fill="white" />
+                </clipPath>
+              </defs></svg
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 2L26 2" stroke="#17699E" stroke-width="3" stroke-linecap="round" />
+              <path d="M2 10L26 10" stroke="#17699E" stroke-width="3" stroke-linecap="round" />
+              <path d="M2 18L26 18" stroke="#17699E" stroke-width="3" stroke-linecap="round" />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
+              <li class="nav-item"><a class="nav-link" href="#home-footer">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="rec-bg"><img src="./images/rectangle.svg" alt="styling rectagle" /></div>
+
+      <article class="hero-section">
+        <section class="hero-section--content">
+          <section class="hero-section--inner">
+            <section class="hero-section--headers">
+              <h1 class="hero-section--title">Astrix</h1>
+              <h2 class="hero-section--subtitle">Digital transformation of quality system</h2>
+            </section>
+            <p class="hero-section--text">
+              Integrated Intelligent Quality System (i2QS) software for handling quality management system and
+              accreditation standards implementation.
+            </p>
+          </section>
+          <a href="#about-us" class="hero-section--cta btn btn-primary">Learn more</a>
+        </section>
+        <section class="hero-section--illustration">
+          <img src="./images/Hero-section.svg" alt="astrix illustration" />
+        </section>
+      </article>
+
+      <div class="index">
+        <h1 class="index-content-1">Astrix</h1>
+      </div>
+
+      <section class="" id="about-us">
+        <div class="about-1 col-12 mb-5">
+          <div class="col-6">
+            <h1 class="mb-4">About Us</h1>
+            <p>
+              Astrix was established in 2014, based in Cairo, Egypt.We provide a complete consultation and
+              software solutions to the healthcare organizations in order to enhance the provided services and
+              to facilitate the process of quality management system implementation.
+            </p>
+            <p>
+              ASTRIX Our solutions and services comply with the national and international quality and
+              accreditation standard/s as well as the applicable guide lines.
+            </p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-6">
+            <img src="./images/Group[1].svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div class="rectangle">
+        <img src="./images/Rectangle 29.svg" alt="" />
+      </div>
+
+      <section class="about-2">
+        <div class="mt-5 text-center">
+          <!-- <div class="index">
+            <h1 class="index-content-2">Astrix</h1>
+          </div> -->
+          <div class="cards">
+            <h1>Why Choose Us</h1>
+            <div class="cards-content mt-5 gap-3">
+              <div class="card mt-5">
+                <div class="card-top d-flex justify-content-left mt-3">
+                  <div class="card-img">
+                    <img src="./images/Feedback.svg" alt="" />
+                  </div>
+                  <p class="">Experience</p>
+                </div>
+                <p class="para-content content-details1">
+                  ASTRiX team has a long experience in process enhancement, workflow, software development as
+                  well as quality and accreditation. We are committed to collaborate with our customers to be
+                  a partner in success and for seeking for excellence.
+                </p>
+              </div>
+              <div class="card mt-5">
+                <div class="card-top d-flex justify-content-left mt-3">
+                  <div class="card-img">
+                    <img src="./images/Vision.svg" alt="" />
+                  </div>
+                  <p class="">Vision</p>
+                </div>
+                <p class="para-content content-details2">
+                  We aim to be a leader service provider that support the integration of the healthcare
+                  processes and quality system implementation through digital transformation.
+                </p>
+              </div>
+              <div class="card mt-5">
+                <div class="card-top d-flex justify-content-left mt-3">
+                  <div class="card-img">
+                    <img src="./images/Mission Achieved.svg" alt="" />
+                  </div>
+                  <p class="">Mission</p>
+                </div>
+                <p class="para-content content-details3">
+                  ASTRiX is a service provided in the field of software and consultation services related to
+                  healthcare sector.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product-section" id="product">
+        <div class="product-text">
+          <h2 class="product-title">IQPS Software</h2>
+          <span class="product-description">Quality & Performance Software</span>
+        </div>
+        <div class="panel panel-default product-panel">
+          <div class="panel-heading navbar-expand-md">
+            <div class="panel-title collapse navbar-collapse" id="side-nav-toggler">
+              <ul class="nav nav-tabs d-flex gap-2">
+                <li class="nav-item side-nav active">
+                  <a class="nav-link" href="#about" aria-current="page" data-toggle="tab"
+                    ><i class="bi bi-info-circle"></i>
+                    <span>About</span></a
+                  >
+                </li>
+                <li class="nav-item side-nav">
+                  <a class="nav-link" href="#feature" data-toggle="tab"
+                    ><i class="bi bi-star"></i>
+                    <span>Feautres</span></a
+                  >
+                </li>
+                <li class="nav-item side-nav">
+                  <a class="nav-link text-center" href="#structure" data-toggle="tab"
+                    ><i class="bi bi-diagram-3"></i>
+                    <span>Main Structure</span></a
+                  >
+                </li>
+                <li class="nav-item side-nav">
+                  <a class="nav-link text-center" href="#modules" data-toggle="tab"
+                    ><i class="bi bi-grid-3x2-gap-fill"></i>
+                    <span>Main Modules</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#side-nav-toggler"
+              aria-controls="side-nav-toggler"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-chevron-down"></i>
+            </button>
+          </div>
+
+          <div class="panel-body offset-md-1">
+            <div class="tab-content">
+              <div class="tab-pane active" id="about">
+                <h3>IQPS</h3>
+                <p>
+                  IQPS is an integrated, intelligent and customized software can be applied to implement the
+                  quality management system in the healthcare organizations.
+                </p>
+                <ul>
+                  IQPS ensures and maintains that:
+
+                  <li>Total digitalization of QMS and accreditation requirements</li>
+                  <li>Compliance with quality and accreditation standards.</li>
+                  <li>Integrity of the quality management system.</li>
+                  <li>Data security and confidentiality.</li>
+                  <li>Saving time during the implementation, data collection and analysis.</li>
+                  <li>Easy handling of QMS Documentation and implantation.</li>
+                  <li>Providing accurate reports at all levels of management.</li>
+                </ul>
+              </div>
+              <div class="tab-pane" id="feature">
+                <ul>
+                  <li>Customized based on the scope of services.</li>
+                  <li>Applicable for all quality and accreditation standards.</li>
+                  <li>QMS implementation with No paperwork.</li>
+                  <li>Enhance the managing and supervising for more than facility/site/units.</li>
+                  <li>List the required tasks for the authorized person.</li>
+                  <li>
+                    Develop and automate the process of handling the timely base records with active alert and
+                    notification.
+                  </li>
+                  <li>Provide accurate reports at all levels of management (KPI analysis).</li>
+                  <li>Implementation process is based on the international Guidelines.</li>
+                  <li>Cover all QMS elements.</li>
+                  <li>Dynamic configuration.</li>
+                  <li>Including a search tools for easy use.</li>
+                  <li>Maintain the integrity of QMS.</li>
+                  <li>Maintain staff communication and handover.</li>
+                  <li>Minimize the number of quality team.</li>
+                  <li>Confidentiality of data.</li>
+                  <li>Some modules can be connected/added. (LIS, IQC, Inventory, …etc.).</li>
+                </ul>
+              </div>
+              <div class="tab-pane" id="structure">
+                <div class="panel panel-default product-panel">
+                  <div class="panel-heading">
+                    <div class="panel-title">
+                      <ul class="nav nav-tabs d-flex">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#notification" aria-current="page" data-toggle="tab"
+                            ><i class="bi bi-bell"></i> Alert & Notification</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#document" data-toggle="tab"
+                            ><i class="bi bi-file-text"></i>Documents Management</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#direction" data-toggle="tab"
+                            ><i class="bi bi-sign-turn-right"></i> Implementation Directories</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="panel-body mt-4">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="notification">
+                        <ul>
+                          <li>
+                            Alert for Scheduled tasks and Notification for needed actions as well as
+                            escalation for delayed tasks will appear to the relevant person/s to take the
+                            required actions based on the access limits and privileges.
+                          </li>
+                        </ul>
+                        <div class="cards-container mt-4">
+                          <div class="card alert-card">
+                            <span class="span-icon">
+                              <i class="bi bi-exclamation-triangle-fill"></i>
+                            </span>
+                            <h5>Examples for: Alert (timely based task)</h5>
+                            <ul>
+                              <li>Regular maintenance activities.</li>
+                              <li>PPM and Calibration.</li>
+                              <li>Action follow up.</li>
+                              <li>Audit conducting.</li>
+                              <li>Periodic staff assessment.</li>
+                              <li>Periodic document revision.</li>
+                              <li>Auditing.</li>
+                              <li>Assessment and KPI.</li>
+                            </ul>
+                          </div>
+                          <div class="card notification-card">
+                            <span class="span-icon">
+                              <i class="bi bi-bell-fill"></i>
+                            </span>
+                            <h5>Examples for: Notification (when needed actions)</h5>
+                            <ul>
+                              <li>Orientation for a new comer.</li>
+                              <li>Event notification</li>
+                              <li>Add corrective action for NC.</li>
+                              <li>Document approval or review.</li>
+                              <li>Complaint investigations.</li>
+                              <li>Assigned action.</li>
+                              <li>Participation (meeting, training,…etc.)</li>
+                              <li>Delayed activities</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="document">
+                        <ul>
+                          <li>
+                            Automate and develop the process for creation, review, amendment and disposal of
+                            all organization’s documents and to ensure that only current, authorized editions
+                            of applicable documents are used and unintended use of any obsolete document is
+                            prevented.
+                          </li>
+                          <li>
+                            Document review and change cycle that comply with the quality standards that
+                            maintain the tracking of document life cycle in the QMS.
+                          </li>
+                          <li>
+                            All document in the QMS will be linked with the relevant item in the implemented
+                            accreditation standards within the organization.
+                          </li>
+                          <li>
+                            Any documents can be linked with more than accreditation standards and a cross
+                            reference with related standards item can be easy initiated.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane" id="direction">
+                        <ul>
+                          <li>
+                            Enhance the process of record implementation through interactive screens based on
+                            organization data base. Each staff will be noticed to implement his/her activities
+                            as needed. Cumulative required repots will be automatically generated.
+                          </li>
+                          <li>
+                            Access to records include 12 directories of that based on the framework developed
+                            by CLSI Guideline.
+                          </li>
+                        </ul>
+                        <div class="container">
+                          <div class="row justify-content-center gap-4">
+                            <div class="col-4 direction-card">
+                              <span class="card-num">1</span>
+                              <h5>Organization</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">2</span>
+                              <h5>Equipment</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">3</span>
+                              <h5>Purchasing and Inventory</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">4</span>
+                              <h5>Facilities and Safety</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">5</span>
+                              <h5>Process Control</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">6</span>
+                              <h5>Assessment—Audits</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">7</span>
+                              <h5>Personnel</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">8</span>
+                              <h5>Customer Service</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">9</span>
+                              <h5>Occurrence Management</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">10</span>
+                              <h5>Process Improvement</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">11</span>
+                              <h5>Documents and Records</h5>
+                            </div>
+                            <div class="col-4 direction-card">
+                              <span class="card-num">12</span>
+                              <h5>Information Management</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Each directory includes some of integrated and interactive screens that support the
+                          implementation on the QMS based the organization process.
+                        </p>
+                        <ul>
+                          <li>
+                            IQPS includes at least the following List of automated records that are embedded
+                            in to the 12 directories and initiated by individual staff for example:
+                          </li>
+                        </ul>
+
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-6">
+                              <ul>
+                                <li>Occurrence variance reporting (OVR)</li>
+                                <li>Request to Referral lab/consultant</li>
+                                <li>List of vendors & suppliers</li>
+                                <li>Vendors & suppliers evaluation</li>
+                                <li>Complaint investigation</li>
+                                <li>Corrective/Preventive Action Request</li>
+                                <li>KPI records</li>
+                                <li>List of auditors</li>
+                                <li>Internal assessment records</li>
+                                <li>Instrument files</li>
+                                <li>Safety and IPC forms & checklists</li>
+                                <li>Facility inspection</li>
+                                <li>Risk assessment</li>
+                                <li>Improvement projects.</li>
+                                <li>Document change request</li>
+                              </ul>
+                            </div>
+                            <div class="col-6">
+                              <ul>
+                                <li>Meeting Agenda</li>
+                                <li>Minutes of meeting</li>
+                                <li>Meeting Assignments</li>
+                                <li>Training Plan</li>
+                                <li>Training needs and request</li>
+                                <li>Orientation and introduction plan</li>
+                                <li>Competency Assessment & appraisal</li>
+                                <li>Training Effectiveness</li>
+                                <li>Job description</li>
+                                <li>Ethics and Confidentiality Code</li>
+                                <li>Staff suggesting</li>
+                                <li>Regular preventive Maintenance Plan</li>
+                                <li>Maintenance & Calibration</li>
+                                <li>Occurrence variance reporting (OVR)</li>
+                                <li>lab and IQC records</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <p class="text-center note-par">
+                          <i class="bi bi-journal-text"></i> Note: each person has access limits for a
+                          specific authority either for use or view.
+                        </p>
+
+                        <p>
+                          Cumulative reports are automatically generated by IQPS per department or site during
+                          period of time and based on the customer requirements customized, for example:
+                        </p>
+                        <div class="container">
+                          <div class="row justify-content-around">
+                            <div class="col-6 report">
+                              <h5>Corrective / Preventive Action Log</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Equipment Calibration plan</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Equipment event and downtime</h5>
+                            </div>
+                            <div class="col-6 report">
+                              <h5>Equipment maintenance plan</h5>
+                            </div>
+                            <div class="col-6 report">
+                              <h5>Complaint investigation log</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Facility and utility inspection plan</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Facility and utility maintenance plan</h5>
+                            </div>
+                            <div class="col-6 report">
+                              <h5>Scheduled tasks History and status</h5>
+                            </div>
+                            <div class="col-6 report">
+                              <h5>KPIs log and statistics</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Master list of active Documents</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Assessment summary reports</h5>
+                            </div>
+                            <div class="col-6 report">
+                              <h5>QC/PT Failure log</h5>
+                            </div>
+                            <div class="col-6 report">
+                              <h5>Meeting Assignments and action follow up</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Drill reports</h5>
+                            </div>
+                            <div class="col-6 report primary-color">
+                              <h5>Drill reports</h5>
+                            </div>
+                            <div class="col-6 report">
+                              <h5>Action plans</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          <strong>Charts & Graphs</strong> for analysis or comparative means are automatically
+                          generated by i2QS per department or site during period of time as well as and based
+                          on the customer requirements customized, for example:
+                        </p>
+                        <ul>
+                          <li>
+                            <strong>Occurrence variance/Non-conformity analysis </strong>
+                            (status, Severity, relevant standards,…etc. )
+                          </li>
+                          <li><strong>Complaint </strong> (status, source, relevant dep,…etc. )</li>
+                          <li><strong>Incident </strong> (Type & status)</li>
+                          <li><strong>KPIs </strong></li>
+                          <li><strong>Current implantation status </strong></li>
+                          <li><strong>Involved staff in implementation </strong></li>
+                          <li><strong>Customized Dashboard </strong></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="modules">
+                <div id="modules-carousel" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <h3 class="module-title">Documents Management</h3>
+                      <ul>
+                        <li>
+                          Automate and develop the process for creation, revision, amendment and disposal of
+                          all documents and to ensure that only current, authorized editions of applicable
+                          documents are used and unintended use of any obsolete document is prevented.
+                        </li>
+                        <li>
+                          Document review and change cycle that comply with the quality standards that
+                          maintain the tracking of document life cycle in the QMS.
+                        </li>
+                        <li>
+                          All document in the QMS will be linked with the relevant item in the implemented
+                          accreditation standards within the Hospital.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="carousel-item">
+                      <h3 class="module-title">Occurrence Variance Reporting (OVR)</h3>
+                      <ul>
+                        <li>
+                          Upon submitting OVR, the cycle will start automatically, a notification to the
+                          responsible person for corrective action will be sent and a proposed date will be
+                          required with appropriate root cause analysis.
+                        </li>
+                        <li>i2QS supports the team to follow the corrective action.</li>
+                        <li>
+                          A cumulative report for all OVRs is automatically generated and includes analysis of
+                          trend and status that will be presented in visual Graphs.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="carousel-item">
+                      <h3 class="module-title">Complaint Investigation</h3>
+                      <ul>
+                        <li>
+                          The compliant cycle in IQPS includes (submission, investigation, adding actions, ask
+                          more than one person for reply and defining the main cause of compliant)
+                        </li>
+                        <li>
+                          A cumulative report for compliant is automatically generated and includes analysis
+                          of trend and status that will be presented in visual Graphs.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="carousel-item">
+                      <h3 class="module-title">Audit Cycle</h3>
+                      <ul>
+                        <li>
+                          Through IQPS the team can plan for audit with adding a detailed programs for each
+                          individual activity.
+                        </li>
+                        <li>Status of audit plan and the execution of programs will be followed by IQPS.</li>
+                        <li>
+                          Audit report will be automatically generated and sent to the relevant persons.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="carousel-item">
+                      <h3 class="module-title">Meeting and Action Management</h3>
+                      <ul>
+                        <li>
+                          Meeting process that includes (Agenda preparing, approving, recoding of Minutes and
+                          assignments) in addition to actions follow up.
+                        </li>
+                        <li>
+                          All types of meeting can be managed by IQPS (governing, staff, specialized
+                          committees, … etc.)
+                        </li>
+                        <li>
+                          All related plans can be added and flowed as (Strategic plan, operation plan,
+                          improvement plan, …etc.)
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="carousel-item">
+                      <h3 class="module-title">Personnel Management</h3>
+                      <ul>
+                        <li>
+                          All Employees need to be added to i2QS software and a specific profile will be
+                          created for each staff.
+                        </li>
+                        <li>
+                          The personnel profile in IQPS includes an electronic approval for job description
+                          and the code of ethic and all personnel records are electrically generated except
+                          the external one.
+                        </li>
+                        <li>
+                          Specific criteria for staff orientation, competency assessment & appraisal are added
+                          to each job title based on accreditation requirements.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-container">
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#modules-carousel"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#modules-carousel"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="home-footer" id="home-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="footer-info col-xs-12 col-md-4 col-lg-3">
+            <h6 class="contact-info-header">Contact Info</h6>
+            <div class="com-info">
+              <p class="contact-phone">Phone:+20 01009006004</p>
+              <p class="contact-address">
+                Address: Arkan Building 4, floor 4, Regus office# 307, Sheikh Zayed, Giza, Egypt.
+              </p>
+            </div>
+            <div class="follow-us py-5">
+              <p>Follow us on:</p>
+              <div class="social-icons w-50 d-flex justify-content-around">
+                <a href=""
+                  ><svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="16" cy="16" r="16" fill="#176496" />
+                    <path
+                      d="M24.0207 11.934C23.9785 11.9648 23.9549 12.0149 23.9575 12.0671C23.9647 12.2127 23.9647 12.3586 23.9647 12.5055C23.9647 17.8432 19.8377 23.9991 12.2913 24C12.2904 24 12.2897 23.9993 12.2897 23.9984V23.9984C12.2897 23.9975 12.2889 23.9968 12.2881 23.9968C10.2811 23.9994 8.31181 23.49 6.56969 22.5233C6.42999 22.4458 6.50043 22.2313 6.66007 22.2375C6.76549 22.2417 6.87102 22.2439 6.97664 22.2441C8.68119 22.2456 10.3408 21.7262 11.729 20.7633C11.8453 20.6826 11.7882 20.4989 11.6476 20.4818C10.1566 20.3014 8.87728 19.3297 8.32577 17.9448C8.28354 17.8388 8.3768 17.7313 8.49003 17.7457C8.81288 17.7867 9.13902 17.7896 9.46154 17.7546C9.61926 17.7375 9.62314 17.5178 9.47413 17.4634C7.8882 16.8839 6.80033 15.3858 6.80033 13.6767V13.6767C6.80033 13.6536 6.82503 13.639 6.84537 13.6498C7.24884 13.8645 7.68534 14.0103 8.13624 14.0818C8.28555 14.1054 8.35483 13.9113 8.24018 13.8127C6.83216 12.6026 6.42366 10.5843 7.28879 8.9241C7.33687 8.83183 7.46272 8.82177 7.53043 8.90076C9.56735 11.2771 12.498 12.7376 15.6502 12.946C15.7497 12.9526 15.8264 12.8605 15.8084 12.7623C15.5617 11.4193 16.0197 10.0384 17.0364 9.09774C18.6688 7.58691 21.2249 7.64496 22.7844 9.21404C22.8204 9.25027 22.8721 9.26714 22.9221 9.25692C23.6827 9.10149 24.4162 8.84064 25.1018 8.48306C25.2241 8.41926 25.3619 8.53459 25.3063 8.66086C25.0596 9.22106 24.6879 9.71824 24.2205 10.1158C24.097 10.2209 24.1847 10.4471 24.3435 10.4147C24.7429 10.3333 25.1357 10.2225 25.5184 10.0832C25.6597 10.0317 25.7876 10.1915 25.6955 10.3104C25.2182 10.9266 24.6542 11.473 24.0207 11.934Z"
+                      fill="#F9F9FA"
+                    />
+                  </svg>
+                </a>
+                <a href=""
+                  ><svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="16" cy="16" r="16" fill="#176496" />
+                    <mask
+                      id="mask0_231_93"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="4"
+                      y="4"
+                      width="24"
+                      height="24"
+                    >
+                      <circle cx="16" cy="16" r="12" fill="#C4C4C4" />
+                    </mask>
+                    <g mask="url(#mask0_231_93)">
+                      <path
+                        d="M13.8055 26.5156C13.5294 26.5156 13.3055 26.2918 13.3055 26.0156V16.25C13.3055 15.9739 13.0817 15.75 12.8055 15.75H11.8124C11.5362 15.75 11.3124 15.5261 11.3124 15.25V13.2793C11.3124 13.0032 11.5362 12.7793 11.8124 12.7793H12.8055C13.0817 12.7793 13.3055 12.5554 13.3055 12.2793V11.6875C13.3055 10.1217 13.7668 8.90723 14.6893 8.04395C15.6119 7.18066 16.9068 6.74902 18.5741 6.74902C19.0755 6.74902 19.617 6.80918 20.1986 6.9295C20.4235 6.97604 20.5806 7.17689 20.5815 7.40659L20.59 9.49546C20.5913 9.82937 20.2666 10.0826 19.9333 10.0615C19.8109 10.0537 19.6795 10.0498 19.5389 10.0498C18.244 10.0498 17.5966 10.6084 17.5966 11.7256V12.2793C17.5966 12.5554 17.8204 12.7793 18.0966 12.7793H19.7753C20.0514 12.7793 20.2753 13.0032 20.2753 13.2793V15.25C20.2753 15.5261 20.0514 15.75 19.7753 15.75H18.0966C17.8204 15.75 17.5966 15.9739 17.5966 16.25V26.0156C17.5966 26.2918 17.3727 26.5156 17.0966 26.5156H13.8055Z"
+                        fill="#F9F9FA"
+                      />
+                    </g>
+                  </svg>
+                </a>
+                <a href=""
+                  ><svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="16" cy="16" r="16" fill="#176496" />
+                    <path
+                      d="M16 6C18.717 6 19.056 6.01 20.122 6.06C21.187 6.11 21.912 6.277 22.55 6.525C23.21 6.779 23.766 7.123 24.322 7.678C24.8305 8.1779 25.224 8.78259 25.475 9.45C25.722 10.087 25.89 10.813 25.94 11.878C25.987 12.944 26 13.283 26 16C26 18.717 25.99 19.056 25.94 20.122C25.89 21.187 25.722 21.912 25.475 22.55C25.2247 23.2178 24.8311 23.8226 24.322 24.322C23.822 24.8303 23.2173 25.2238 22.55 25.475C21.913 25.722 21.187 25.89 20.122 25.94C19.056 25.987 18.717 26 16 26C13.283 26 12.944 25.99 11.878 25.94C10.813 25.89 10.088 25.722 9.45 25.475C8.78233 25.2245 8.17753 24.8309 7.678 24.322C7.16941 23.8222 6.77593 23.2175 6.525 22.55C6.277 21.913 6.11 21.187 6.06 20.122C6.013 19.056 6 18.717 6 16C6 13.283 6.01 12.944 6.06 11.878C6.11 10.812 6.277 10.088 6.525 9.45C6.77524 8.78218 7.1688 8.17732 7.678 7.678C8.17767 7.16923 8.78243 6.77573 9.45 6.525C10.088 6.277 10.812 6.11 11.878 6.06C12.944 6.013 13.283 6 16 6ZM16 11C14.6739 11 13.4021 11.5268 12.4645 12.4645C11.5268 13.4021 11 14.6739 11 16C11 17.3261 11.5268 18.5979 12.4645 19.5355C13.4021 20.4732 14.6739 21 16 21C17.3261 21 18.5979 20.4732 19.5355 19.5355C20.4732 18.5979 21 17.3261 21 16C21 14.6739 20.4732 13.4021 19.5355 12.4645C18.5979 11.5268 17.3261 11 16 11ZM22.5 10.75C22.5 10.4185 22.3683 10.1005 22.1339 9.86612C21.8995 9.6317 21.5815 9.5 21.25 9.5C20.9185 9.5 20.6005 9.6317 20.3661 9.86612C20.1317 10.1005 20 10.4185 20 10.75C20 11.0815 20.1317 11.3995 20.3661 11.6339C20.6005 11.8683 20.9185 12 21.25 12C21.5815 12 21.8995 11.8683 22.1339 11.6339C22.3683 11.3995 22.5 11.0815 22.5 10.75ZM16 13C16.7956 13 17.5587 13.3161 18.1213 13.8787C18.6839 14.4413 19 15.2044 19 16C19 16.7956 18.6839 17.5587 18.1213 18.1213C17.5587 18.6839 16.7956 19 16 19C15.2044 19 14.4413 18.6839 13.8787 18.1213C13.3161 17.5587 13 16.7956 13 16C13 15.2044 13.3161 14.4413 13.8787 13.8787C14.4413 13.3161 15.2044 13 16 13Z"
+                      fill="#F9F9FA"
+                    />
+                  </svg>
+                </a>
+                <a href=""
+                  ><svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="16" cy="16" r="16" fill="#176496" />
+                    <path
+                      d="M10.9399 9.00002C10.9397 9.53046 10.7287 10.0391 10.3534 10.4139C9.97819 10.7888 9.46937 10.9993 8.93894 10.999C8.40851 10.9988 7.89991 10.7878 7.52502 10.4125C7.15014 10.0373 6.93968 9.52846 6.93994 8.99802C6.94021 8.46759 7.15117 7.95899 7.52644 7.5841C7.9017 7.20922 8.41051 6.99876 8.94094 6.99902C9.47137 6.99929 9.97998 7.21026 10.3549 7.58552C10.7297 7.96078 10.9402 8.46959 10.9399 9.00002ZM10.9999 12.48H6.99994V25H10.9999V12.48ZM17.3199 12.48H13.3399V25H17.2799V18.43C17.2799 14.77 22.0499 14.43 22.0499 18.43V25H25.9999V17.07C25.9999 10.9 18.9399 11.13 17.2799 14.16L17.3199 12.48Z"
+                      fill="#F9F9FA"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-2">
+            <ul class="info-list">
+              <li>
+                <h6 class="company-info-header">Company Info</h6>
+              </li>
+              <li class="com-info">
+                <a href="#">About Us</a>
+              </li>
+              <li class="com-info"><a href="#">Products</a></li>
+              <li class="com-info"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-3">
+            <ul class="info-list">
+              <li>
+                <h6 class="help-center-header">Help Center</h6>
+              </li>
+              <li class="com-info">
+                <a href="#">FQ&A</a>
+              </li>
+              <li class="com-info"><a href="#">Customer Service</a></li>
+              <li class="com-info"><a href="#">Privacy Policy</a></li>
+              <li class="com-info"><a href="#">Terms of Use</a></li>
+              <li class="com-info"><a href="#">Cookies Settings</a></li>
+            </ul>
+          </div>
+          <div class="stay-intouch col-xs-12 col-md-12 w-md-25 col-lg-4">
+            <h6>Let’s Stay in Touch</h6>
+            <form
+              action="https://formsubmit.io/send/tsara1859@gmail.com"
+              class="contact-form"
+              id="contact-form"
+              method="post"
+            >
+              <input
+                id="field1"
+                type="email"
+                class="input-info"
+                placeholder="Enter your mail here"
+                name="email"
+                onclick="handleSubmit()"
+              />
+
+              <input
+                id="field2"
+                type="text"
+                class="input-info"
+                placeholder="Enter your Phone Number"
+                name="Phone"
+              />
+              <textarea
+                id="field3"
+                rows="3"
+                type="text"
+                placeholder="Leave your Comment"
+                name="message"
+              ></textarea>
+              <div class="submit-btn">
+                <button type="submit" value="send" id="btn" class="send text-center">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr class="style" />
+      <div class="row d-flex justify-content-between">
+        <div class="col-xs-12 col-md-6 col-lg-6">Astrix 2014 -2023</div>
+        <div class="col-xs-12 col-md-6 col-lg-6 d-flex justify-content-md-end justify-content-lg-end">
+          All rights Reserved @Astrix
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
